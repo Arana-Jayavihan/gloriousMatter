@@ -1,0 +1,30 @@
+{
+  "name": "researchproject",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "IT21040726 Final Year Research",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Harshangi Perera IT21040726",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7",
+    "shortid": "^2.2.16",
+    "slugify": "^1.6.6",
+    "url": "^0.11.4",
+    "uuid": "^10.0.0"
+  }
+}

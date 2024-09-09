@@ -1,0 +1,135 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/* src/styles.css */
+
+/* Body and container styling */
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/wall53.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(6px);
+}
+
+/* Container styles */
+.login-container, .signup-container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Form group styles */
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #555;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button styles */
+.login-button, .signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:hover, .signup-button:hover {
+  background-color: #45a049;
+}
+
+/* General container and layout */
+.study-note-management {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  background-color: #1414149c;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Filter Section */
+.filter-section input {
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Notes Table */
+.notes-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.notes-table th, .notes-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.notes-table th {
+  background-color: #f4f4f480;
+}
+
+.notes-table tr:hover {
+  background-color: #f1f1f14d;
+  cursor: pointer;
+}
+
+/* New Note Form */
+.new-note-form {
+  margin: 3rem;
+}
+
+.new-note-form input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+}
+
+.new-note-form button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.new-note-form button:hover {
+  background-color: #45a049;
+}
